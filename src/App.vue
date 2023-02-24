@@ -1,19 +1,19 @@
 <template>
     <v-app>
         <v-main>
-            <HelloWorld />
+            <Shift />
         </v-main>
     </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Shift from "./components/NewShift";
 
 export default {
     name: "App",
 
     components: {
-        HelloWorld,
+        Shift,
     },
 
     data: () => ({
