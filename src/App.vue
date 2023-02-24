@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Shift from "./components/Shift_Cipher";
+import Shift from "./components/NewShift";
 
 export default {
     name: "App",
